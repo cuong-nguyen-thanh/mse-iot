@@ -51,7 +51,7 @@ function startServer() {
    var port = process.env.PORT || 9000;
    var ip = process.env.IP || '0.0.0.0';
     server.listen(port, ip, function () {
-        console.log('Express server listening on %d, port);
+        console.log('Express server listening on %d', port);
     });
 }
 
