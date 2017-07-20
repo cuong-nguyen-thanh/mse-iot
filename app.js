@@ -46,8 +46,16 @@ app.post('/login', function (req, res) {
   })
 })
 
-
 // Start server
-server.listen(process.env.PORT,process.env.IP, function() {
-    console.log('Express server listening on %d, in %s mode', 9000, '127.0.0.1');
-});
+function startServer() {
+   var port = process.env.PORT || 9000;
+   var ip = process.env.IP || '0.0.0.0';
+    server.listen(port, ip, function () {
+        console.log('Express server listening on %d, port);
+    });
+}
+
+setImmediate(startServer);
+
+// Expose app
+exports = module.exports = app;
