@@ -1,0 +1,29 @@
+
+.login {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#led i {
+  font-size: 15em;
+}
+
+/*.main-led #led-off{
+	color: black;
+}*/
+
+.main-led.active #led-on{
+	color: #d9534f;
+}
+
+.main-led.active #led i {
+  color: #d9534f;
+}
+
+.inactive {
+	color: black;
+}
+
+#tempChart {
+  margin-bottom: 25px;
+}

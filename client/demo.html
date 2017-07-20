@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IOT - Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/Chart.bundle.min.js"></script>
+  </head>
+  <body>
+    <h1 class="text-center">DEMO MONITORING_CONTROLLING_ACQUISITION</h1>
+    <section class="container">
+      <div class="row">
+        <div class="main-led text-center col-xs-6">
+          <h3>LED</h3>
+          <div id="led">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+          </div>
+          <div class="led-on-off">
+            <i class="fa fa-toggle-on fa-4x" style="display:none;" id="led-on"></i>
+            <i class="fa fa-toggle-on fa-4x fa-rotate-180" id="led-off"></i>
+          </div>
+        </div>
+        <div class="main-temp col-xs-6">
+          <h3 class="text-center">Temperature</h3>
+          <canvas id="tempChart"></canvas>
+          <div class="text-center">
+            <div class="btn btn-danger">START</div>
+            <div class="btn btn-default">STOP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
