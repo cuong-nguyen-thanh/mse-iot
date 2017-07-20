@@ -28,6 +28,8 @@ $(document).ready(function() {
       $('#message').html('');
       if (!res.success) {
         $('#message').html(res.message);
+      } else {
+	$('#message').html('Login Success!');      
       }
     })
   });
