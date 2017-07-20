@@ -28,6 +28,6 @@
   margin-bottom: 25px;
 }
 
-#led-on-off {
+.led-on-off {
   display: inline-block;
 }
