@@ -27,3 +27,7 @@
 #tempChart {
   margin-bottom: 25px;
 }
+
+#led-on-off {
+  display: inline-block;
+}
