@@ -29,7 +29,8 @@ $(document).ready(function() {
       if (!res.success) {
         $('#message').html(res.message);
       } else {
-	$('#message').html('Login Success!');      
+          window.location.href= 'demo.html';
+	        // $('#message').html('Login Success!');
       }
     })
   });
