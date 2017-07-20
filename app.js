@@ -48,6 +48,6 @@ app.post('/login', function (req, res) {
 
 
 // Start server
-server.listen(9000, function() {
+server.listen(80, function() {
     console.log('Express server listening on %d, in %s mode', 9000, '127.0.0.1');
 });
